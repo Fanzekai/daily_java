@@ -10,7 +10,7 @@ import java.util.EnumSet;
 public class EnumTest {
     public static void main(String[] args) {
 
-        // Creating a set
+        // Creating a sets
         EnumSet<SeasonEnum> set1, set2, set3, set4;
 
         // Adding elements
