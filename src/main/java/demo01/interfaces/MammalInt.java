@@ -5,7 +5,7 @@ package demo01.interfaces;
  * @version 1.0
  * @date 2024/3/15  20:57
  */
-public class MammalInt implements Animal{
+public class MammalInt implements Animal,people{
 
 
     @Override
@@ -21,8 +21,18 @@ public class MammalInt implements Animal{
     public int noofLegs(){
         return 0;
     }
-}
 
+
+    @Override
+    public void play() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+}
 
 /**
  * 一个类可以同时实现多个接口。
@@ -34,3 +44,4 @@ public class MammalInt implements Animal{
  * 接口中的方法都是隐式public的
  * 接口中可以含有变量，但是接口中的变量会被隐式的指定为public static final变量（并且只能是 public，用 private 修饰会报编译错误）。
  * **/
+

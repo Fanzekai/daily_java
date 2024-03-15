@@ -5,7 +5,8 @@ package demo01.interfaces;
  * @version 1.0
  * @date 2024/3/15  20:53
  */
-public interface Animal {
-    public void eat();
-    public void travel();
+interface Animal {
+    public abstract void eat();
+    void travel();
 }
+
