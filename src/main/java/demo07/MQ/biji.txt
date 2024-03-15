@@ -1,0 +1,2 @@
+1.消息发送到RabbitMQ后首先要经过Exchange路由才能找到对应的Queue。
+2.exchange收到消息之后，根据routing key路由到跟当前交换机绑定的相匹配的队列里面。
