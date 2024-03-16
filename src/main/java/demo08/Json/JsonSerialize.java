@@ -19,6 +19,7 @@ public class JsonSerialize {
         new JsonSerialize().start();
     }
 
+
     public void start() throws IOException, JsonProcessingException {
         User u = new User();
         List<User> friends = new ArrayList<>();
