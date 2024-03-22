@@ -17,17 +17,18 @@ import java.util.List;
 public class JsonSerialize {
     public static void main(String[] args) throws IOException {
         new JsonSerialize().start();
+
     }
 
 
     public void start() throws IOException, JsonProcessingException {
-        User u = new User();
+
         List<User> friends = new ArrayList<>();
+        User u = new User();
         u.setUserName("张三");
         u.setPassword("123456");
         u.setUserInfo("张三是一个很牛逼的人");
         u.setFriends(friends);
-
         User f1 = new User();
         f1.setUserName("李四");
         f1.setPassword("123456");
@@ -41,6 +42,7 @@ public class JsonSerialize {
         friends.add(f1);
         friends.add(f2);
 
+        //序列化
         ObjectMapper mapper = new ObjectMapper();
         Long t1 = System.currentTimeMillis();
         byte[] writeValueAsBytes = null;
@@ -48,6 +50,7 @@ public class JsonSerialize {
             writeValueAsBytes = mapper.writeValueAsBytes(u);
         }
         System.out.println("json serialize: " + (System.currentTimeMillis() - t1) + "ms; 总大小：" + writeValueAsBytes.length);
+        //反序列化
         Long t2 = System.currentTimeMillis();
         User user = mapper.readValue(writeValueAsBytes, User.class);
         System.out.println("json deserialize: " + (System.currentTimeMillis() - t2) + "ms; User: " + user);
