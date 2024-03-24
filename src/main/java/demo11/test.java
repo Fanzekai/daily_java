@@ -15,14 +15,14 @@ public class test {
 
         Class<test> testClass = test.class;
 
-        //System.out.println(testClass);
-        //System.out.println(testClass.getDeclaredFields());
-        //System.out.println(testClass.getName());
-        //System.out.println(testClass.getMethod("main", String[].class));
-        //for (Field declaredField : testClass.getDeclaredFields()) {
-        //    System.out.println(declaredField);
-        //
-        //}
+        System.out.println(testClass);
+        System.out.println(testClass.getDeclaredFields());
+        System.out.println(testClass.getName());
+        System.out.println(testClass.getMethod("main", String[].class));
+        for (Field declaredField : testClass.getDeclaredFields()) {
+            System.out.println(declaredField);
+
+        }
 
         Class<?> aClass = Class.forName("java.lang.String");
         //System.out.println(aClass.getConstructor());
