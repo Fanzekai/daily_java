@@ -25,10 +25,10 @@ public class test {
         }
 
         Class<?> aClass = Class.forName("java.lang.String");
-        //System.out.println(aClass.getConstructor());
-        //for (Field declaredField : aClass.getDeclaredFields()) {
-        //    System.out.println(declaredField);
-        //}
+        System.out.println(aClass.getConstructor());
+        for (Field declaredField : aClass.getDeclaredFields()) {
+            System.out.println(declaredField);
+        }
         for (Method method : aClass.getMethods()) {
             System.out.println(method);
         }
