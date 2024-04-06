@@ -5,11 +5,11 @@ import java.util.concurrent.CountDownLatch;
  * @version 1.0
  * @date 2024/3/28  14:48
  */
-public class CountDownLatchExample  implements Runnable {
+public class CountDownLatchExample01 implements Runnable {
     private String serviceName;
     private CountDownLatch latch;
 
-    public CountDownLatchExample(String serviceName, CountDownLatch latch) {
+    public CountDownLatchExample01(String serviceName, CountDownLatch latch) {
         this.serviceName = serviceName;
         this.latch = latch;
     }
@@ -34,7 +34,7 @@ public class CountDownLatchExample  implements Runnable {
 
         // 启动多个线程，每个线程分别从一个远程服务获取数据
         for (int i = 1; i <= numServices; i++) {
-            Thread thread = new Thread(new CountDownLatchExample("Service " + i, latch));
+            Thread thread = new Thread(new CountDownLatchExample01("Service " + i, latch));
             thread.start();
         }
 
