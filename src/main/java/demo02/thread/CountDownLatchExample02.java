@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
  * @version 1.0
  * @date 2024/4/5  18:31
  */
-public class test {
+public class CountDownLatchExample02 {
 
     public static void main(String[] args) throws InterruptedException {
 
