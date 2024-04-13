@@ -8,7 +8,7 @@ import java.util.concurrent.*;
  * @version 1.0
  * @date 2024/4/9  17:05
  */
-public class test {
+public class CountDownLatchExample03 {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
@@ -43,17 +43,17 @@ public class test {
 
             });
             list.add(submit);
-            //countDownLatch.countDown();
+            countDownLatch.countDown();
         }
 
 
-
+        countDownLatch.await();
         System.out.println("等待任务执行完成");
         for (Future future : list) {
             future.get().toString();
         }
 
-        countDownLatch.await();
+
 
         // 关闭线程池
         executorService.shutdown();
