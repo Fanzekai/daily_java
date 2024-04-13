@@ -29,6 +29,7 @@ public class TestFileInputStreamFinal {
                     int readCount=0;
                     while((readCount=in.read(bytes))!= -1) {
                         //把byte数组转换成字符串，读到多少个就转换多少个
+                        System.out.println(readCount);
                         System.out.println(new String(bytes, 0, readCount));
                     }
                     in.close();// 关闭输入流
