@@ -1,4 +1,4 @@
-package demo05;
+package demo05.IO;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

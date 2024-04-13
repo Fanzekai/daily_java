@@ -1,4 +1,4 @@
-package demo05;
+package demo05.IO;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,37 +7,30 @@ import java.io.IOException;
 /**
  * @author fzk
  * @version 1.0
- * @date 2023/6/8  21:55
+ * @date 2023/6/23  23:50
  */
-//输入流
-public class TestFileInputStream01 {
+public class TestFileInputStream02  {
     public static void main(String args[]) {
-
-
+        int b = 0;// 使用变量b来装调用read()方法时返回的整数
         FileInputStream in = null;
 
         try {
             in = new FileInputStream("D:\\workspace\\IDEA\\Git\\大杂烩\\java\\src\\main\\java\\demo05\\txt\\read");
-
-            byte[] bytes = new byte[1024];
-
-            int read = in.read(bytes); // 将文件内容读取到字节数组中,记录一共读了多少字节
-            if (in.read(bytes) == -1) { // 此时判断的是是否已经到达文件末尾
-                System.out.println(new String(bytes, 0, read)); // 输出实际读取的内容
-            }
-
-            System.out.println("剩下几个字节没有读:"+in.available());
         } catch (FileNotFoundException e) {
             System.out.println("系统找不到指定文件！");
             System.exit(-1);// 系统非正常退出
-        } catch (IOException e) {
-            e.printStackTrace();
         }
-
+        long num = 0;// 使用变量num来记录读取到的字符数
 
         try {
-            in.close();// 关闭输入流
+            while ((b = in.read()) != -1) {
+                System.out.print((char) b);
 
+                num++;
+            }
+            in.close();// 关闭输入流
+            System.out.println();
+            System.out.println("总共读取了" + num + "个字节的文件");
         } catch (IOException e1) {
             System.out.println("文件读取错误！");
         }
