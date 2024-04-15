@@ -38,9 +38,9 @@ public class threadExecutors {
 
 }
 /***
- * public ThreadPoolExecutor(int corePoolSize,//核心线程池大小
+ * public ThreadPoolExecutor(int corePoolSize,//核心线程数量
  *                               int maximumPoolSize,//最大核心线程大小
- *                               long keepAliveTime,//超时了没人用就会释放
+ *                               long keepAliveTime,//超时时间，没人用就会释放
  *                               TimeUnit unit,//超时单位
  *                               BlockingQueue<Runnable> workQueue,//阻塞队列
  *                               ThreadFactory threadFactory,//线程工厂，创建线程，一般不用动
