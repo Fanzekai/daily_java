@@ -56,3 +56,4 @@ public class interruptThreadDemo {
         }
     }
 }
+//isInterrupted() 方法用于检查线程的中断状态，如果线程已经被中断，则返回 true，否则返回 false
