@@ -12,7 +12,7 @@ package demo02.kuangshen.threadJUC.SingletonDemo;
 public class LazyMan1 {
     //私有化构造器
     private LazyMan1() {
-        System.out.println(Thread.currentThread().getName()+"OK");
+        System.out.println(Thread.currentThread().getName()+">>"+"OK");
     }
 
     private static LazyMan1 lazyMan;
