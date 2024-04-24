@@ -27,5 +27,20 @@ public class IOClient {
             } catch (IOException e) {
             }
         }).start();
+
+        new Thread(() -> {
+            try {
+                Socket socket = new Socket("127.0.0.1", 8000);
+                while (true) {
+                    try {
+                        socket.getOutputStream().write(("fzk" + ": 你好").getBytes());
+                        socket.getOutputStream().flush();
+                        Thread.sleep(2000);
+                    } catch (Exception e) {
+                    }
+                }
+            } catch (IOException e) {
+            }
+        }).start();
     }
 }
