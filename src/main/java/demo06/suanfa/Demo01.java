@@ -1,4 +1,4 @@
-package demo10.suanfa;
+package demo06.suanfa;
 
 /**
  * @author fzk
