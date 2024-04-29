@@ -1,4 +1,4 @@
-package demo03;
+package demo03.EnumDemo;
 
 import java.util.*;
 
