@@ -1,0 +1,29 @@
+@Service
+public class MyService {
+
+    @Autowired
+    private MyRepository repository;
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void methodA() {
+        // 执行一些操作
+        methodB();
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    public void methodB() {
+        // 执行一些数据库操作
+        repository.someDatabaseOperation();
+    }
+}
+
+在Spring框架中，事务的加入行为是指当前方法（被调用的方法）是否会加入到已存在的事务中。在你提到的情景中，假设方法A调用了方法B，而方法B的事务传播行为设置为 REQUIRED。
+如果方法A在调用方法B时已经处于一个活动的事务中，那么方法B会加入到该事务中，成为该事务的一部分。这意味着方法B中的数据库操作将与方法A中的数据库操作处于同一个事务中，并且在方法A结束时一起提交或回滚。
+如果方法A在调用方法B时没有处于一个活动的事务中（即方法A自身不被包裹在一个事务中），那么方法B会创建一个新的事务，并在方法B的执行期间独立地管理这个新的事务。这样，方法B中的数据库操作将独立于方法A，并且会在方法B结束时进行提交或回滚。
+
+
+@Transactional
+默认情况下，事务的传播行为为 REQUIRED，
+隔离级别会根据数据库的默认设置来确定，例如在大多数情况下，默认隔离级别是 READ_COMMITTED。
+
+当我们说“不管当前是否存在一个事务”时，指的是当前方法调用的上下文是否存在一个活动的事务。

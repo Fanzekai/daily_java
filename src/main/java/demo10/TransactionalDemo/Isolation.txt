@@ -1,0 +1,65 @@
+package demo10.TransactionalDemo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+/**
+ * @author fzk
+ * @version 1.0
+ * @date 2024/4/29  12:41
+ */
+
+/*
+* 创建订单：当用户下单时，系统会创建一个新订单，并将订单信息插入到订单表中。
+更新库存：订单创建后，系统需要从库存中减去相应的商品数量。
+支付：用户支付订单后，系统会更新订单状态为已支付，并在支付日志中记录支付信息。
+在这个业务例子中，我们需要确保这三个步骤的操作是原子的，即要么全部成功，要么全部失败，以保持数据的一致性
+* */
+
+
+@Transactional 注解使用数据库的默认隔离级别。大多数数据库的默认隔离级别是 READ_COMMITTED
+Isolation.DEFAULT：使用默认的隔离级别（数据库的默认级别）。
+Isolation.READ_UNCOMMITTED：允许读取未提交的数据。
+Isolation.READ_COMMITTED：确保读取到的数据是已提交的。
+Isolation.REPEATABLE_READ：确保在事务期间多次读取相同数据时，数据保持一致。
+Isolation.SERIALIZABLE：最严格的隔离级别，确保事务之间不会发生相互干扰。
+
+
+
+@Service
+public class TransactionalExample1 {
+
+
+    @Autowired
+   // private OrderRepository orderRepository;
+
+    @Autowired
+    private InventoryRepository inventoryRepository;
+
+
+    @Transactional
+    public void createOrderAndUpdateInventory() {
+
+        // 创建订单
+     //   Order order = new Order();
+        order.setOrderId(123);
+        order.setCustomerId(456);
+        order.setTotalAmount(100.00);
+        order.setStatus("pending");
+        orderRepository.save(order);
+
+        // 更新库存
+        Inventory inventory = inventoryRepository.findByProductId(789);
+        if (inventory != null) {
+            inventory.setQuantity(inventory.getQuantity() - 1);
+            inventoryRepository.save(inventory);
+        }
+
+        // 其他操作...
+
+        // 手动抛出异常，模拟事务回滚
+        throw new RuntimeException("Simulate transaction rollback");
+
+    }
+}
+}
