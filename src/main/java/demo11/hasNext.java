@@ -14,25 +14,27 @@ public class hasNext {
     public static void main(String[] args) {
 
 
-        Scanner scan = new Scanner(System.in);
+        //Scanner scan = new Scanner(System.in);
         //if(scan.hasNext()==false){
         //    System.out.println("hasNext和hasNextLine不会返回false");
         //}
 
 
         //一直不停敲回车键，第一次回车会直接输出true，而后面一直敲都会阻塞在hasNext语句上
-        System.out.println(scan.hasNextLine());
-        System.out.println(scan.hasNext());
+        //System.out.println(scan.hasNextLine());
+        //System.out.println(scan.hasNext());
 
 
         //hasNext 和 next组合，next不可以录入空格,读到空格前的内容
-        //Scanner scan2 = new Scanner(System.in);
-        //System.out.println("请输入字符串，并多混入空格回车尝试不同结果");
-        //if(scan2.hasNext() ) {
-        //    System.out.println("第一次"+scan2.next());
-        //    System.out.println("第二次"+scan2.next());
-        //    System.out.println("第三次"+scan2.next());
-        //}
+        Scanner scan2 = new Scanner(System.in);
+        System.out.println("请输入字符串，并多混入空格回车尝试不同结果");
+        if(scan2.hasNextInt() ) {
+            int a = scan2.nextInt();
+            System.out.println("第一次"+a);
+            int b = scan2.nextInt();
+            System.out.println("第二次"+b);
+            System.out.println(a+b);
+        }
 
         //hasNext 和 NextLine组合,nextLine可以录入空格,读到回车前的内容
         //Scanner scan3 = new Scanner(System.in);
