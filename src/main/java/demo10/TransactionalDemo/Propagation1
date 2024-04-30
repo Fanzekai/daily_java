@@ -24,6 +24,6 @@ public class MyService {
 
 @Transactional
 默认情况下，事务的传播行为为 REQUIRED，
-隔离级别会根据数据库的默认设置来确定，例如在大多数情况下，默认隔离级别是 READ_COMMITTED。
+隔离级别会根据数据库的默认设置来确定，mysql默认隔离级别是 READ_ROMMITTED。
 
 当我们说“不管当前是否存在一个事务”时，指的是当前方法调用的上下文是否存在一个活动的事务。
