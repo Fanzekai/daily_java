@@ -8,7 +8,7 @@ package demo02.kuangshen.lockDemo;
 /*
 原本对象锁已经被调用了，但是现在被同一线程又调用了，这就是可重入锁。
 * */
-public class ReentrantlockDemo {
+public class ReentrantlockDemo01 {
 
 
     public static void main(String[] args) {

@@ -1,6 +1,10 @@
-package demo02.kuangshen.lockDemo;/**
- * @author  fzk
- * @date  2024/4/30  20:50
+package demo02.kuangshen.lockDemo;
+
+/**
+ * @author fzk
  * @version 1.0
-*/public class AQSDemo {
+ * @date 2024/4/30  20:50
+ */
+
+public class AQSDemo {
 }
