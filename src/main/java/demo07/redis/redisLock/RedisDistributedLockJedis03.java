@@ -7,7 +7,7 @@ import redis.clients.jedis.Jedis;
  */
 
 
-public class Main {
+public class RedisDistributedLockJedis03 {
 
     public static void main(String[] args) {
         Jedis jedis = new Jedis("localhost", 6379);
