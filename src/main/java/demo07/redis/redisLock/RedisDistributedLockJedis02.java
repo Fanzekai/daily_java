@@ -11,7 +11,7 @@ import redis.clients.jedis.Jedis;
  *使用redis实现分布式锁
  * 当模拟多个节点获取资源时，可以通过多线程的方式来模拟多个节点。其中一些线程会成功获取锁，而其他线程会获取失败
  * **/
-public class RedisDistributedLockJedis {
+public class RedisDistributedLockJedis02 {
 
     //private static final String LOCK_KEY = "my_lock";
     //private static final String LOCK_VALUE = "locked";
@@ -35,7 +35,7 @@ public class RedisDistributedLockJedis {
         @Override
         public void run() {
             Jedis jedis = new Jedis("localhost", 6379);
-            RedisDistributedLock lock = new RedisDistributedLock(jedis);
+            RedisDistributedLockJedis01 lock = new RedisDistributedLockJedis01(jedis);
 
             if (lock.tryLock()) {
                 try {

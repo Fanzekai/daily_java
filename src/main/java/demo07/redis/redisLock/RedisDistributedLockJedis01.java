@@ -9,7 +9,7 @@ import redis.clients.jedis.Jedis;
 
 
 
-public class RedisDistributedLock {
+public class RedisDistributedLockJedis01 {
 
     private static final String LOCK_KEY = "my_lock";
     private static final String LOCK_VALUE = "locked";
@@ -17,7 +17,7 @@ public class RedisDistributedLock {
 
     private Jedis jedis;
 
-    public RedisDistributedLock(Jedis jedis) {
+    public RedisDistributedLockJedis01(Jedis jedis) {
         this.jedis = jedis;
     }
 
