@@ -20,8 +20,6 @@ public class threadVolatile2 {
         private static volatile int number = 0;
 
         public  static void add(){
-
-
             number++;
             //++ 不是一个原子性操作，是两个~3个操作
             //

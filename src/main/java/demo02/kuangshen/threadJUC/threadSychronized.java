@@ -66,6 +66,7 @@ class Data{//数字 资源类
     public synchronized void decrement() throws InterruptedException {
         if (num == 0){
             this.wait();
+
         }
         num--;
         System.out.println(Thread.currentThread().getName()+">="+num);
