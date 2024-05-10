@@ -24,8 +24,6 @@ public class ListTest {
          * 3. List<String> list = new CopyOnWriteArrayList<>();
          */
         List<String> arrayList = new CopyOnWriteArrayList<>();
-
-
         for(int i=1;i<=10;i++){
             new Thread(()->{
                 arrayList.add(UUID.randomUUID().toString().substring(0,5));
