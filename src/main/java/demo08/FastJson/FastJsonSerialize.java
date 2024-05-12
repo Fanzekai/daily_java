@@ -44,11 +44,12 @@ public class FastJsonSerialize {
         for(int i = 0; i<10; i++) {
             text = JSON.toJSONString(u);
         }
+        System.out.println(text);
         System.out.println("fastJson serialize: " +(System.currentTimeMillis() - t1) + "ms; 总大小：" + text.getBytes().length);
         //反序列化
         Long t2 = System.currentTimeMillis();
         User user = JSON.parseObject(text, User.class);
-        System.out.println("fastJson serialize: " + (System.currentTimeMillis() -t2) + "ms; User: " + user);
+        System.out.println("fastJson serialize: " + (System.currentTimeMillis() -t2) + "ms; User: " + user.toString());
     }
 }
 

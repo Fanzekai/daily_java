@@ -1,5 +1,7 @@
 package demo08;
 
+import lombok.Data;
+
 import java.util.List;
 
 /**
@@ -7,6 +9,7 @@ import java.util.List;
  * @version 1.0
  * @date 2024/3/16  10:04
  */
+@Data
 public class User {
 
     private String UserName;
@@ -48,4 +51,5 @@ public class User {
     public void setFriends(List friends) {
         Friends = friends;
     }
+
 }
