@@ -13,8 +13,6 @@ import java.util.logging.Logger;
 public class PointsDraw {
 
 
-
-
         // 方法：根据积分权重随机抽取中奖用户
         public static int pickWinner(int[] points) {
             // 计算总积分，使用 long 类型以防止溢出
@@ -49,19 +47,19 @@ public class PointsDraw {
         public static void main(String[] args) {
             try {
                 // 测试用例1：简单测试
-                //int[] points1 = {20, 34, 160, 2};
-                //testPickWinner(points1, 1000);
+                int[] points1 = {20, 34, 160, 2};
+                testPickWinner(points1, 1000);
 
                 // 测试用例2：所有值都为最小值的边界情况
-                //int[] points2 = {1, 1, 1, 1};
-                //testPickWinner(points2, 1000);
+                int[] points2 = {1, 1, 1, 1};
+                testPickWinner(points2, 1000);
 
                 // 测试用例3：所有值都为最大值的边界情况
-                //int[] points3 = new int[50000];
-                //for (int i = 0; i < 50000; i++) {
-                //    points3[i] = 50000;
-                //}
-                //testPickWinner(points3, 1000);
+                int[] points3 = new int[50000];
+                for (int i = 0; i < 50000; i++) {
+                    points3[i] = 50000;
+                }
+                testPickWinner(points3, 1000);
 
                 // 测试用例4：随机大规模测试
                 int[] points4 = new int[100];
@@ -106,6 +104,7 @@ weights = [5, 3, 2]，权重总和为 10。现在把这些权重值平铺在一�
 间属于服务器 A，[5, 8) 区间属于服务器 B，[8, 10) 区间属于服务器 C。接下来通过
 随机数生成器生成一个范围在 [0, 10) 之间的随机数，然后计算这个随机数会落到哪个
 区间上就可以了。
+*
 * */
 
 /**
