@@ -1,6 +1,8 @@
 package demo03.gatherDemo;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * @author fzk
@@ -41,7 +43,27 @@ public class MapDemo {
         boolean isEmpty = map.isEmpty();
         System.out.println("Is map empty: " + isEmpty);
 
+
+
+
+        //遍历
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
+        for (String key : map.keySet()) {
+            System.out.println("Key: " + key + ", Value: " + map.get(key));
+        }
+        for (Integer value1 : map.values()) {
+            System.out.println("Value: " + value1);
+        }
+
+
         // 清空 HashMap 中的所有键值对
         map.clear();
+
+        // 返回 HashMap 中键值对的数量
+        int size1 = map.size();
+        System.out.println("Size of map: " + size1);
     }
-}
+    }
+
