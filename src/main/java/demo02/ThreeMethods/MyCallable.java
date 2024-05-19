@@ -1,4 +1,4 @@
-package demo02.ThreeMethods.CallableDemo;
+package demo02.ThreeMethods;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;

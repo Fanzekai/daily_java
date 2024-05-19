@@ -1,4 +1,4 @@
-package demo02.runnable;
+package demo02.ThreeMethods;
 
 /**
  * @author fzk
