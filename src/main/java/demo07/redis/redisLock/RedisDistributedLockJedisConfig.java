@@ -21,6 +21,8 @@ public class RedisDistributedLockJedis01 {
         this.jedis = jedis;
     }
 
+    //NX 代表只在 lock_key 不存在时，才对 lock_key 进行设置操作；
+    //PX 10000 表示设置 Propagationlock_key 的过期时间为 10s，这是为了避免客户端发生异常而无法释放锁。
     public boolean tryLock() {
         // 尝试获取锁
         String result = jedis.set(LOCK_KEY, LOCK_VALUE, "NX", "PX", LOCK_EXPIRE_TIME);
