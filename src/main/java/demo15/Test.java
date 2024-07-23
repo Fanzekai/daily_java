@@ -1,5 +1,7 @@
 package demo15;
 
+import java.awt.*;
+
 /**
  * @author fzk
  * @version 1.0
@@ -45,8 +47,17 @@ public class Test {
         System.out.println(c);
     }
 
+    public static void test04() {
+
+        System.out.println("john"=="john");
+        System.out.println("john".equals("john"));
+        System.out.println("john".equals(new Button("john")));
+    }
+
     public static void main(String[] arguments) {
 
-        test03();
+        //test03();
+        test04();
     }
+
 }
