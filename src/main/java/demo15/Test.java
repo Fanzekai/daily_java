@@ -15,5 +15,6 @@ public class Test {
 
         System.out.println("fzk");
 
+        System.out.println("lzt");
     }
 }
