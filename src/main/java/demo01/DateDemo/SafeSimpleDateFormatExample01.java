@@ -9,6 +9,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class SafeSimpleDateFormatExample01 {
+    /**
+     * 主方法，用于启动两个线程来执行日期打印任务。
+     *
+     * @param args 命令行参数（未使用）
+     */
     public static void main(String[] args) {
         // 创建两个线程，并启动
         Thread thread1 = new Thread(new DatePrinter());

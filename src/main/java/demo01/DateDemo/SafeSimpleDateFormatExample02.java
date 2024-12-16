@@ -13,6 +13,17 @@ public class SafeSimpleDateFormatExample02 {
 
     private static final ThreadLocal<SimpleDateFormat> threadLocalSdf = ThreadLocal.withInitial(() -> new SimpleDateFormat("yyyy-MM-dd"));
 
+    /**
+     * 主方法，用于演示如何创建和启动线程。
+     *
+     * 此方法创建了两个线程，每个线程都运行一个 DatePrinter 实例。
+     * DatePrinter 是一个实现了 Runnable 接口的类，其 run 方法包含要在线程中执行的代码。
+     *
+     * 通过调用 thread1.start() 和 thread2.start()，两个线程将并发执行，
+     * 每个线程都会独立地打印当前日期和时间。
+     *
+     * @param args 命令行参数（本方法不使用）
+     */
     public static void main(String[] args) {
         // 创建两个线程，并启动
         Thread thread1 = new Thread(new DatePrinter());
