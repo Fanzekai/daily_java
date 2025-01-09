@@ -9,7 +9,8 @@ public class gethostName {
 
     public static void main(String[] args) {
 
+        String hostName = System.getenv("HOSTNAME");
 
-        System.out.println();
+
     }
 }
