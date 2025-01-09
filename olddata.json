@@ -1,0 +1,145 @@
+{
+  "archivesInfo": {
+    "version": 3,
+    "missingVersion": 1,
+    "archiving": 1
+  },
+  "basicInfo": {
+    "serviceType": "01",
+    "legalMan": "法定代表人",
+    "resultCertNo": "证照编号",
+    "contactCode": "220581198007111111",
+    "leadDepartment": "郑州市公安局责任处科室",
+    "documentNumber": "11410100005252709W3000109036000-2022-D10-00000087",
+    "projectId": "00000240",
+    "departmentCode": "410100000013",
+    "contactType": "身份证",
+    "result": "办理结果",
+    "taskType": "01",
+    "receiveDepartment": "受理承办单位",
+    "taskCode": "11410100005252709W3000109036000",
+    "resultCertName": "证照名称",
+    "applicantInformation": {
+      "applyer": [
+        {
+          "applyerAddress": "申请者地址",
+          "applyerName": "申请人名称",
+          "applyerMobile": "13344445555",
+          "applyerCardType": "身份证",
+          "applyerCardCode": "220581198007111111"
+        }
+      ]
+    },
+    "resultCertEndDate": "结果证照有效期限止",
+    "applyTime": "2022-07-02 10:00:00",
+    "secrecyPeriod": "98",
+    "informationSystemDescription": "信息系统描述",
+    "retentionPeriod": "D10",
+    "departmentName": "郑州市公安局",
+    "archiveTime": "2022-07-02 10:00:00",
+    "contactMobile": "13344445555",
+    "contactName": "代理人名称",
+    "securityClassification": "秘密级",
+    "taskVersion": "3.0",
+    "receiveTime": "2022-07-02 10:00:00",
+    "areaCode": "410101",
+    "transactTime": "2022-07-02 10:00:00",
+    "resultCertBeginDate": "结果证照有效期限始",
+    "projectName": "办件名称",
+    "businessCode": "11450000MB1958966A200011700600001",
+    "businessExtendedCode": "1"
+  },
+  "configInfo": {
+    "taskType": "01",
+    "taskCode": "11410100005252709W3000109036000",
+    "taskName": "机动车注册登记",
+    "departmentCode": "01012",
+    "departmentName": "部门名称",
+    "taskVersion": "3.0",
+    "businessCode": "11450000MB1958966A20001170060001",
+    "businessExtendedCode": "1",
+    "retentionPeriod": "D10",
+    "missingArchive": {
+      "missingFlag": "Y",
+      "missingReason": "采用简单材料"
+    },
+    "filingRanges": [
+      {
+        "materialCatalogName": "申报",
+        "essential": "必要",
+        "archivesType": "在线归档",
+        "missingMaterialFlag": "N"
+      },
+      {
+        "materialCatalogName": "过程",
+        "essential": "必要",
+        "archivesType": "在线归档",
+        "missingMaterialFlag": "N"
+      },
+      {
+        "materialCatalogName": "结果",
+        "essential": "必要",
+        "archivesType": "在线归档",
+        "missingMaterialFlag": "N"
+      }
+    ]
+  },
+  "flowInfo": [
+    {
+      "nodeName": "环节名称01",
+      "department": "经办部门01",
+      "departmentCode": "经办部门社会信用代码01",
+      "author": "经办人01",
+      "type": "意见类型01",
+      "body": "意见内容01",
+      "modified": "2022-07-02 10:00:00"
+    },
+    {
+      "nodeName": "环节名称02",
+      "department": "经办部门02",
+      "departmentCode": "经办部门社会信用代码02",
+      "author": "经办人02",
+      "type": "意见类型02",
+      "body": "意见内容02",
+      "modified": "2022-07-02 10:00:00"
+    }
+  ],
+  "fileInfo": [
+    {
+      "fileDirectoryName": "申报",
+      "archiveFileInformation": [
+        {
+          "computerFileName": "行政许可申请表.pdf",
+          "formatInformation": ".pdf",
+          "computerFileSize": "731.66KB",
+          "computerFileCreationTime": "2022-08-08 09:11:33",
+          "computerFileStoragePath": "http://192.168.206.183:19000/govservice/行政许可申请表.pdf"
+        }
+      ]
+    },
+    {
+      "fileDirectoryName": "过程",
+      "archiveFileInformation": [
+        {
+          "computerFileName": "行政许可申请表.pdf",
+          "formatInformation": ".pdf",
+          "computerFileSize": "731.66KB",
+          "computerFileCreationTime": "2022-09-09 10:00:00",
+          "computerFileStoragePath": "http://192.168.206.183:19000/govservice/行政许可申请表.pdf"
+        }
+      ]
+    },
+    {
+      "fileDirectoryName": "结果",
+      "archiveFileInformation": [
+        {
+          "computerFileName": "行政许可申请表.pdf",
+          "formatInformation": ".pdf",
+          "computerFileSize": "731.66KB",
+          "computerFileCreationTime": "2022-09-09 10:00:00",
+          "computerFileStoragePath": "http://192.168.206.183:19000/govservice/行政许可申请表.pdf"
+        }
+      ]
+    }
+  ]
+}

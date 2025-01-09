@@ -12,7 +12,7 @@ public class MyCallable implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        System.out.println("***子线程执行***");
+        System.out.println("***子线程执行***"+Thread.currentThread().getName());
         //执行线程处理方法
         int sun = 0;
         for (int i = 0; i < 5; i++) {
@@ -23,7 +23,7 @@ public class MyCallable implements Callable<Integer> {
 
     public static void main(String[] args) {
         //主线程执行
-        System.out.println("---主线程执行---");
+        System.out.println("---主线程执行---"+Thread.currentThread().getName());
 
         //创建子线程，不可以自己单独启动，必须借助FutureTask才可以，必须获取子线程执行结果
         MyCallable callable = new MyCallable();

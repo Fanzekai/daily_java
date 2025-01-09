@@ -41,7 +41,7 @@ class God implements Runnable{
 class You implements Runnable{
     @Override
     public void run() {
-        for (int i = 0; i < 36500; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println("你一生都开心的活着");
         }
         System.out.println("====goodbye!world====");

@@ -1,0 +1,9 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°Šƒš
+a
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ù´À=
+b
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(„ÐŠç
+E
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Å­ËÝúÿÿÿÿ

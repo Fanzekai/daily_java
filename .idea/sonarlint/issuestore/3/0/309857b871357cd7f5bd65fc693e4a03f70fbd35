@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ÿÚ¥üÿÿÿÿ
+t	java:S115
+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ºçüüÿÿÿÿ
+R
+java:S3066"<Lower the visibility of this setter or remove it altogether.(Ò’Š¯
+Ê
+java:S6548	"®An Enum-based Singleton implementation was detected. Make sure the use of the Singleton pattern is required and an Enum-based implementation is the right one for the context.(œİÓûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÿ­•ù

@@ -9,10 +9,12 @@ public class isAliveThreadDemo {
 
 
         public static void main(String[] args) throws InterruptedException {
+
+            //子线程的定义和启动
             Thread thread = new Thread(() -> {
                 try {
                     Thread.sleep(2000); // 模拟线程执行任务的时间
-                    System.out.println("线程执行完毕！");
+                    System.out.println("子线程执行完毕！");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -21,9 +23,13 @@ public class isAliveThreadDemo {
             System.out.println("线程是否处于活动状态：" + thread.isAlive()); // 输出false，因为线程还没有启动
             thread.start();
             System.out.println("线程是否处于活动状态：" + thread.isAlive()); // 输出true，因为线程正在运行
+            //主线程睡眠2秒，等待子线程执行完毕
+            //Thread.sleep(4000);
 
-            //主线程等待子线程执行完毕后再继续执行，你需要在主线程中调用 join() 方法等待子线程的结束。
-            // 否则，主线程会继续执行下去，而不管子线程的状态如何。
+            // 在主线程中调用 join() 方法等待子线程的结束
+            // 主线程等待子线程thread执行完毕后再继续执行
+            // 正常情况主线程和子线程会并行执行。主线程会不管子线程的状态，继续执行下去。
+            // join()执行完再执行下面的代码
             thread.join();
             System.out.println("线程是否处于活动状态：" + thread.isAlive()); // 输出false，因为线程已经终止
         }

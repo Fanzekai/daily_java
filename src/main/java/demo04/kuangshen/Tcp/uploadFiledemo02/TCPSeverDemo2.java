@@ -27,7 +27,7 @@ public class TCPSeverDemo2 {
             //3.获取输入流
             inputStream = socket.getInputStream();
             //4.文件输出
-            fileOutputStream  = new FileOutputStream(new File("receive.jpg"));
+            fileOutputStream  = new FileOutputStream(new File("D:\\workspace\\IDEA\\Git\\大杂烩\\java\\src\\main\\resources\\receive.jpg"));
             byte[] bytes = new byte[1024];
             int len;
             while((len = inputStream.read(bytes)) != -1){

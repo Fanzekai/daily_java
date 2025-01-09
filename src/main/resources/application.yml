@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: localhost# ???
+    port: 5672 # ??
+    virtual-host: / # ????
+    username: guest # ???
+    password: guest # ??
+
+
+archives:
+  packageTemp:
+    path: "${user.home}/packagetemp/registration"
+  template:
+      name: "归档登记表.docx"
+

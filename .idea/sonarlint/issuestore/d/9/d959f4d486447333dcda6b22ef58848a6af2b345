@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”¿äó8Ó¯Æžè1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8å¯Æžè1
+G
+java:S2140"*Use "java.util.Random.nextLong()" instead.(Í„‰á8å¯Æžè1
+L	java:S106"+Replace this use of System.out by a logger.(ÓÐéòüÿÿÿÿ8æ¯Æžè1
+{
+java:S2142-"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8è¯Æžè1
+L	java:S106,"+Replace this use of System.out by a logger.(ÌÈàØÿÿÿÿÿ8è¯Æžè1

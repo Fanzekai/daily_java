@@ -20,7 +20,7 @@ public class SimpleDateFormatDemo {
 
         try {
             // 解析字符串为日期时间对象
-            Date parsedDate = sdf.parse("2022-04-20 15:30:00");
+            Date parsedDate = sdf.parse(formattedDate);
             System.out.println("Parsed Date: " + parsedDate);
         } catch (Exception e) {
             e.printStackTrace();

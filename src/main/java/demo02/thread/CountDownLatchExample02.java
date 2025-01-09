@@ -20,6 +20,7 @@ public class CountDownLatchExample02 {
         for (int i = 0; i < 6; i++) {
 
             int finalI = i;
+
             executorService.execute(() -> {
 
                 try {

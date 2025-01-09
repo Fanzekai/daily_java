@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metas>
+  <base>
+    <gdpzxx>
+      <description title="归档配置信息">
+        <TaskType title="事项类型">01</TaskType>
+        <TaskCode title="事项实施编码">11410100005252709W3000109036000</TaskCode>
+        <TaskName title="事项名称">机动车注册登记</TaskName>
+        <DepartmentCode title="实施主体编码">01012</DepartmentCode>
+        <DepartmentName title="实施主体名称">部门名称</DepartmentName>
+        <TaskVersion title="事项版本">3.0</TaskVersion>
+        <BusinessCode title="业务办理项编码">11450000MB1958966A20001170060001</BusinessCode>
+        <BusinessExtendedCode title="业务办理项扩展码">1</BusinessExtendedCode>
+        <RetentionPeriod title="保管期限">D10</RetentionPeriod>
+        <MissingArchive title="容缺归档">
+          <MissingFlag title="容缺归档标记">Y</MissingFlag>
+          <MissingReason title="容缺归档原因">采用简单材料</MissingReason>
+        </MissingArchive>
+        <FilingRanges title="归档范围">
+          <MaterialCatalog title="归档材料目录">
+            <MaterialCatalogName title="归档材料目录名称">申报</MaterialCatalogName>
+            <Essential title="是否必要">必要</Essential>
+            <ArchivesType title="归档类型">在线归档</ArchivesType>
+            <MissingMaterialFlag title="归档材料容缺归档标记">N</MissingMaterialFlag>
+          </MaterialCatalog>
+          <MaterialCatalog title="归档材料目录">
+            <MaterialCatalogName title="归档材料目录名称">过程</MaterialCatalogName>
+            <Essential title="是否必要">必要</Essential>
+            <ArchivesType title="归档类型">在线归档</ArchivesType>
+            <MissingMaterialFlag title="归档材料容缺归档标记">N</MissingMaterialFlag>
+          </MaterialCatalog>
+          <MaterialCatalog title="归档材料目录">
+            <MaterialCatalogName title="归档材料目录名称">结果</MaterialCatalogName>
+            <Essential title="是否必要">必要</Essential>
+            <ArchivesType title="归档类型">在线归档</ArchivesType>
+            <MissingMaterialFlag title="归档材料容缺归档标记">N</MissingMaterialFlag>
+          </MaterialCatalog>
+        </FilingRanges>
+        <ArchiveFiles title="办件归档组件">
+          <FileDirectory title="归档文件目录">
+            <FileDirectoryName title="计算机文件目录名称">申报</FileDirectoryName>
+            <ArchiveFileInformation title="归档文件信息">
+              <ComputerFileName title="计算机文件名">行政许可申请表.pdf</ComputerFileName>
+              <FormatInformation title="格式信息">.pdf</FormatInformation>
+              <ComputerFileSize title="计算机文件大小">731.66KB</ComputerFileSize>
+              <ComputerFileCreationTime title="计算机文件创建时间">2022-08-08 09:11:33</ComputerFileCreationTime>
+              <ComputerFileStoragePath title="计算机文件存储路径">\申报\行政许可申请表.pdf</ComputerFileStoragePath>
+            </ArchiveFileInformation>
+          </FileDirectory>
+          <FileDirectory title="归档文件目录">
+            <FileDirectoryName title="计算机文件目录名称">过程</FileDirectoryName>
+            <ArchiveFileInformation title="归档文件信息">
+              <ComputerFileName title="计算机文件名">行政许可申请表.pdf</ComputerFileName>
+              <FormatInformation title="格式信息">.pdf</FormatInformation>
+              <ComputerFileSize title="计算机文件大小">731.66KB</ComputerFileSize>
+              <ComputerFileCreationTime title="计算机文件创建时间">2022-09-09 10:00:00</ComputerFileCreationTime>
+              <ComputerFileStoragePath title="计算机文件存储路径">\过程\行政许可申请表.pdf</ComputerFileStoragePath>
+            </ArchiveFileInformation>
+          </FileDirectory>
+          <FileDirectory title="归档文件目录">
+            <FileDirectoryName title="计算机文件目录名称">结果</FileDirectoryName>
+            <ArchiveFileInformation title="归档文件信息">
+              <ComputerFileName title="计算机文件名">行政许可申请表.pdf</ComputerFileName>
+              <FormatInformation title="格式信息">.pdf</FormatInformation>
+              <ComputerFileSize title="计算机文件大小">731.66KB</ComputerFileSize>
+              <ComputerFileCreationTime title="计算机文件创建时间">2022-09-09 10:00:00</ComputerFileCreationTime>
+              <ComputerFileStoragePath title="计算机文件存储路径">\结果\行政许可申请表.pdf</ComputerFileStoragePath>
+            </ArchiveFileInformation>
+          </FileDirectory>
+        </ArchiveFiles>
+      </description>
+    </gdpzxx>
+    <jbxx>
+      <description title="办件基本信息">
+        <ServiceType title="办件类型">01</ServiceType>
+        <LegalMan title="法定代表人">法定代表人</LegalMan>
+        <ResultCertNo title="结果证照编号">证照编号</ResultCertNo>
+        <ContactCode title="联系人或代理人证件号码">220581198007111111</ContactCode>
+        <LeadDepartment title="责任处(科)室">郑州市公安局责任处科室</LeadDepartment>
+        <DocumentNumber title="电子文件号">43510102-ZY·ZW·2022-D10-0001-0056</DocumentNumber>
+        <ProjectId title="办件编号">00000285</ProjectId>
+        <DepartmentCode title="实施主体编码">410100000013</DepartmentCode>
+        <ContactType title="联系人或代理人证件类型代码">身份证</ContactType>
+        <Result title="办理结果">办理结果</Result>
+        <TaskType title="事项类型">01</TaskType>
+        <ReceiveDepartment title="受理单位名称">受理承办单位</ReceiveDepartment>
+        <TaskCode title="事项实施编码">11410100005252709W3000109036000</TaskCode>
+        <ResultCertName title="结果证照名称">证照名称</ResultCertName>
+        <ApplicantInformation title="申请者信息">
+          <Applyer title="申请者">
+            <ApplyerAddress title="申请者通讯地址">申请者地址</ApplyerAddress>
+            <ApplyerName title="申请者名称">申请人名称</ApplyerName>
+            <ApplyerMobile title="申请者手机号码">13344445555</ApplyerMobile>
+            <ApplyerCardType title="申请者证件类型">身份证</ApplyerCardType>
+            <ApplyerCardCode title="申请者证件号码">220581198007111111</ApplyerCardCode>
+          </Applyer>
+        </ApplicantInformation>
+        <ResultCertEndDate title="结果证照有效期限止">结果证照有效期限止</ResultCertEndDate>
+        <ApplyTime title="申请时间">2022-07-02 10:00:00</ApplyTime>
+        <SecrecyPeriod title="保密期限">98</SecrecyPeriod>
+        <InformationSystemDescription title="信息系统描述">信息系统描述</InformationSystemDescription>
+        <DepartmentName title="实施主体名称">郑州市公安局</DepartmentName>
+        <ArchiveTime title="归档时间">2022-07-02 10:00:00</ArchiveTime>
+        <ContactMobile title="联系人手机号码">13344445555</ContactMobile>
+        <ContactName title="联系人或代理人姓名">代理人名称</ContactName>
+        <SecurityClassification title="密级">秘密级</SecurityClassification>
+        <TaskVersion title="事项版本">3.0</TaskVersion>
+        <ReceiveTime title="受理时间">2022-07-02 10:00:00</ReceiveTime>
+        <AreaCode title="行政区划编码">410101</AreaCode>
+        <TransactTime title="办结时间">2022-07-02 10:00:00</TransactTime>
+        <ResultCertBeginDate title="结果证照有效期限始">结果证照有效期限始</ResultCertBeginDate>
+        <ProjectName title="办件名称">办件名称</ProjectName>
+        <RetentionPeriod title="保管期限">D10</RetentionPeriod>
+      </description>
+    </jbxx>
+  </base>
+  <ext>
+    <lcxx>
+      <description title="办理流程信息">
+        <Process title="办理流程">
+          <NodeName title="环节名称">环节名称01</NodeName>
+          <Department title="经办部门">经办部门01</Department>
+          <DepartmentCode title="经办部门社会信用代码">经办部门社会信用代码01</DepartmentCode>
+          <Author title="经办人">经办人01</Author>
+          <Type title="意见类型">意见类型01</Type>
+          <Body title="意见内容">意见内容01</Body>
+          <Modified title="办理时间">2022-07-02 10:00:00</Modified>
+        </Process>
+        <Process title="办理流程">
+          <NodeName title="环节名称">环节名称02</NodeName>
+          <Department title="经办部门">经办部门02</Department>
+          <DepartmentCode title="经办部门社会信用代码">经办部门社会信用代码02</DepartmentCode>
+          <Author title="经办人">经办人02</Author>
+          <Type title="意见类型">意见类型02</Type>
+          <Body title="意见内容">意见内容02</Body>
+          <Modified title="办理时间">2022-07-02 10:00:00</Modified>
+        </Process>
+      </description>
+    </lcxx>
+    <kzx>
+      <class id="ProjectInformationSheet" item="项目信息表">
+        <autorow id="EnterpriseQualification" title="企业资质">
+          <row id="ConstructionQualifications" title="施工资质">
+            <item id="DesignQualifications" title="设计资质">甲级资质证书</item>
+            <item id="ConsultingQualifications" title="咨询资质">咨询证书</item>
+          </row>
+        </autorow>
+        <item id="ProjectCode" title="项目编码">项目编码</item>
+      </class>
+      <class id="ProjectInformationSheet2" item="项目信息表表">
+        <autorow id="EmployeeInformation" title="员工信息">
+          <row id="ProjectDepartment" title="项目部">
+            <item id="Role" title="职位">经理</item>
+            <item id="Name" title="姓名">张三</item>
+          </row>
+        </autorow>
+        <item id="ProjectName" title="项目名称">项目名称</item>
+      </class>
+    </kzx>
+  </ext>
+</metas>

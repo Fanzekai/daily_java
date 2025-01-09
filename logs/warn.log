@@ -1,0 +1,6 @@
+2024-12-16 20:25:32 [Thread-1] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:32 [Thread-1] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:32 [Thread-2] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16
+2024-12-16 20:25:32 [Thread-1] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:33 [Thread-2] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16
+2024-12-16 20:25:33 [Thread-2] WARN  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16

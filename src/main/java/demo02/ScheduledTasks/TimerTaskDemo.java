@@ -24,6 +24,7 @@ public class TimerTaskDemo {
                 "线程名称: " + Thread.currentThread().getName());
         Timer timer = new Timer("Timer");
         long delay = 1000L;
+        // 延迟1秒后执行任务，只执行一次
         timer.schedule(task, delay);
 
 

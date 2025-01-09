@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * @date 2024/5/5  13:10
  */
 @Component
-public class RedisDistributedLockRedis01 {
+public class RedisDistributedLockRedisConfig {
 
 
     @Autowired

@@ -1,0 +1,10 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°Šƒš8ù“ÑÔä1
+o
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÈÈï¬şÿÿÿÿ8…”ÑÔä1
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ˆ”ÑÔä1
+G	java:S106"+Replace this use of System.out by a logger.(ğâ 8Š”ÑÔä1
+G	java:S106 "+Replace this use of System.out by a logger.(Ş ¡à8”ÑÔä1
+G	java:S106!"+Replace this use of System.out by a logger.(™¥îÎ8”ÑÔä1
+G	java:S106&"+Replace this use of System.out by a logger.(›¡òÍ8‘éÔÔä1

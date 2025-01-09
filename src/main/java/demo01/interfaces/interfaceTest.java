@@ -9,7 +9,7 @@ public interface interfaceTest {
     //常量
     String LED ="LED";
     // 抽象方法
-    int getElectricityUse();
+     int getElectricityUse();
     //静态方法
     static boolean isEnergyEfficient(String electtronicType) {
         return electtronicType.equals(LED);

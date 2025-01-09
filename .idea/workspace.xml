@@ -4,14 +4,127 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c84a41e7-5efb-43c3-9911-546f0486c246" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo01/Abstractclasses/people.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61d8082579c28ef6fb7eb08236f5647d739960a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61d8082579c28ef6fb7eb08236f5647d739960a6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba890c5515e9f71bb095f6f28276c64fa625b677" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/ba890c5515e9f71bb095f6f28276c64fa625b677" afterDir="false" />
+    <list default="true" id="c84a41e7-5efb-43c3-9911-546f0486c246" name="Changes" comment="新增注释">
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data02.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsondata2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modelData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/olddata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/Tcpdemo02/TCPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/Tcpdemo02/TCPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo13/SignAPIInsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/Metadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/MetadataTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo17/BasePack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo17/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONKeyCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONValidators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/XMLGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/XmlTojson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/getKeyFromJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo02/WordTemplateFiller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo02/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageDpiChecker01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageResolutionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFImageDetector01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/ExifReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/FilePropertiesDetector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/PdfDetailsExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/PdfFileInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/fileUrlChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/ArchiveFileChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/MysqlToEs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/ObjectInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/transformHuaweiObsPathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/JsonToXmlConverter01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/JsonToXmlWithFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/TestFastJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/gethostName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/jvmTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/pathtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/json/在线归档参数.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templateFile/归档登记表.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/归档登记表.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/在线归档元数据.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/在线归档参数.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/接收参数.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/行政审批元数据.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/61d8082579c28ef6fb7eb08236f5647d739960a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/ba890c5515e9f71bb095f6f28276c64fa625b677" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/datatest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/Abstractclasses/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/Abstractclasses/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/Abstractclasses/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/Abstractclasses/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/proxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/SimpleDateFormatDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/UnsafeSimpleDateFormatDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/UnsafeSimpleDateFormatDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/interfaces/MammalInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/interfaces/MammalInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/interfaces/interfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/interfaces/interfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBufferdemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBufferdemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBuilderdemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBuilderdemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/Stringdemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/Stringdemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/lamdaDemo/lamdademo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/lamdaDemo/lamdademo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/streamDemo/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/streamDemo/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ScheduledTasks/TimerTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ScheduledTasks/TimerTaskDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/SynchronousQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadSychronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadSychronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadExecutors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/daemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/daemonThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/interruptThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/interruptThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/isAliveThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/isAliveThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/joinThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/joinThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/liveThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/liveThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/sleepThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/sleepThreadDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stateThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stateThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stopThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stopThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/waitThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/waitThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/yieldThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/yieldThreadDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/IOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/IOClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/IOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/IOServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPClientDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPClientDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPSeverDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPSeverDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo06/suanfa/treeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo06/suanfa/treeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedis02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedis02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisincrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisincrDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo09/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo09/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/ReflectTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/ReflectTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/shuzimali.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/shuzimali.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo14/DesignPatterns/CreateDemo/BuilderPattern/Builder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo14/DesignPatterns/CreateDemo/BuilderPattern/Builder1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/PointsDraw.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,13 +139,70 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/mymaster" />
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="mymaster" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fanzekai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cc29645d-1417-432a-9652-2c4a8619c366" />
+        <option name="url" value="https://github.com/Fanzekai/daily_java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +212,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\tools\maven\maven-3.8.2\maven Repository" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../../tools/maven/maven-3.8.2/apache-maven-3.8.2-bin/apache-maven-3.8.2" />
+        <option name="useMavenConfig" value="false" />
         <option name="userSettingsFile" value="D:\tools\maven\maven-3.8.2\apache-maven-3.8.2-bin\apache-maven-3.8.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -58,25 +229,118 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "SQL Inserts",
+    "database.data.extractors.current.id": "SQL Inserts",
+    "git-widget-placeholder": "mymaster",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/workspace/IDEA/Git/大杂烩/java/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36429432",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "two.files.diff.last.used.file": "D:/workspace/IDEA/Git/大杂烩/java/行政审批元数据.xml",
+    "two.files.diff.last.used.folder": "D:/workspace/IDEA/Git/大杂烩/java/src/main/resources/.idea",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "0e44b1b7-9836-4dff-9709-3d6f372db670"
+    ]
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo01.Abstractclasses.Dog" />
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java\src\main\resources" />
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java\src\main\java\lineWell\demo07" />
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java" />
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java\src\main\resources\templateFileName" />
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java\src\main\java\demo07\MQ" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java\src\main\resources\json" />
+      <recent name="D:\workspace\IDEA\Git\大杂烩\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo02.kuangshen.threadJUC" />
+      <recent name="demo07.redis.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TCPClientDemo2">
+    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo02.TCPClient" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo01.Abstractclasses.*" />
+          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPClientDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo01.TCPClientDemo1" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPClientDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.uploadFiledemo02.TCPClientDemo2" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo04.kuangshen.Tcp.uploadFiledemo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo02.TCPServer" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo04.kuangshen.Tcp.uploadFiledemo02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,13 +350,17 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.TCPClientDemo2" />
+        <item itemvalue="Application.demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" />
+        <item itemvalue="Application.TCPClient" />
+        <item itemvalue="Application.TCPServer" />
+        <item itemvalue="Application.TCPClientDemo1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\fzk\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,11 +370,576 @@
       <option name="presentableId" value="Default" />
       <updated>1710504193734</updated>
       <workItem from="1710504194740" duration="2433000" />
-      <workItem from="1710506810516" duration="1996000" />
+      <workItem from="1710506810516" duration="10147000" />
+      <workItem from="1710521957709" duration="9669000" />
+      <workItem from="1710646622825" duration="4533000" />
+      <workItem from="1710723620784" duration="104000" />
+      <workItem from="1710752895225" duration="651000" />
+      <workItem from="1710926647809" duration="846000" />
+      <workItem from="1710983488134" duration="2389000" />
+      <workItem from="1711032920270" duration="273000" />
+      <workItem from="1711069433808" duration="12000" />
+      <workItem from="1711076504964" duration="2469000" />
+      <workItem from="1711119895987" duration="10294000" />
+      <workItem from="1711203269214" duration="3693000" />
+      <workItem from="1711288941254" duration="678000" />
+      <workItem from="1711293897023" duration="85000" />
+      <workItem from="1711330597362" duration="596000" />
+      <workItem from="1711540943682" duration="634000" />
+      <workItem from="1711608180606" duration="3164000" />
+      <workItem from="1711696967988" duration="2759000" />
+      <workItem from="1711722858053" duration="104000" />
+      <workItem from="1711781458720" duration="38000" />
+      <workItem from="1711974366848" duration="3947000" />
+      <workItem from="1712073815388" duration="625000" />
+      <workItem from="1712113471665" duration="31000" />
+      <workItem from="1712312416651" duration="4136000" />
+      <workItem from="1712393267027" duration="5900000" />
+      <workItem from="1712452984351" duration="2533000" />
+      <workItem from="1712555723952" duration="3986000" />
+      <workItem from="1712623766065" duration="7089000" />
+      <workItem from="1712812614425" duration="3012000" />
+      <workItem from="1712852032422" duration="13000" />
+      <workItem from="1712894956528" duration="795000" />
+      <workItem from="1712934979805" duration="17055000" />
+      <workItem from="1713057067880" duration="19121000" />
+      <workItem from="1713145672671" duration="2439000" />
+      <workItem from="1713176504497" duration="7495000" />
+      <workItem from="1713233873910" duration="9302000" />
+      <workItem from="1713322275305" duration="5090000" />
+      <workItem from="1713404728855" duration="15054000" />
+      <workItem from="1713503889550" duration="611000" />
+      <workItem from="1713518984096" duration="8314000" />
+      <workItem from="1713538555711" duration="14000" />
+      <workItem from="1713596032020" duration="3960000" />
+      <workItem from="1713616015485" duration="4250000" />
+      <workItem from="1713713076478" duration="11001000" />
+      <workItem from="1713798357754" duration="2738000" />
+      <workItem from="1713840324551" duration="15412000" />
+      <workItem from="1714148864260" duration="636000" />
+      <workItem from="1714363947440" duration="7297000" />
+      <workItem from="1714481086081" duration="1335000" />
+      <workItem from="1714625371859" duration="4622000" />
+      <workItem from="1714731861421" duration="1536000" />
+      <workItem from="1714799808581" duration="95000" />
+      <workItem from="1714811517571" duration="2791000" />
+      <workItem from="1714878952712" duration="9642000" />
+      <workItem from="1714971359756" duration="6388000" />
+      <workItem from="1714994561165" duration="1635000" />
+      <workItem from="1715137964091" duration="2908000" />
+      <workItem from="1715246600614" duration="6000" />
+      <workItem from="1715324382728" duration="1410000" />
+      <workItem from="1715408428833" duration="12225000" />
+      <workItem from="1715879618396" duration="179000" />
+      <workItem from="1715947041551" duration="55229000" />
+      <workItem from="1716868834901" duration="4659000" />
+      <workItem from="1717124877750" duration="590000" />
+      <workItem from="1717241368669" duration="1225000" />
+      <workItem from="1717650015656" duration="7317000" />
+      <workItem from="1718082089576" duration="15742000" />
+      <workItem from="1718157508291" duration="675000" />
+      <workItem from="1718176252753" duration="38000" />
+      <workItem from="1718268411237" duration="2145000" />
+      <workItem from="1718515442874" duration="1900000" />
+      <workItem from="1720328706341" duration="2790000" />
+      <workItem from="1720400874070" duration="4073000" />
+      <workItem from="1720789373914" duration="2943000" />
+      <workItem from="1721627450631" duration="741000" />
+      <workItem from="1721636031860" duration="810000" />
+      <workItem from="1721739344323" duration="2634000" />
+      <workItem from="1721742071712" duration="4912000" />
+      <workItem from="1721748198452" duration="2016000" />
+      <workItem from="1721751343368" duration="1734000" />
+      <workItem from="1722997241717" duration="1871000" />
+      <workItem from="1723708157204" duration="829000" />
+      <workItem from="1723719709401" duration="838000" />
+      <workItem from="1725196437405" duration="3073000" />
+      <workItem from="1725204640011" duration="64000" />
+      <workItem from="1725270732871" duration="547000" />
+      <workItem from="1725287079550" duration="3498000" />
+      <workItem from="1725325298160" duration="1376000" />
+      <workItem from="1725800078796" duration="9032000" />
+      <workItem from="1725843203042" duration="3840000" />
+      <workItem from="1725863429103" duration="876000" />
+      <workItem from="1725886246922" duration="4214000" />
+      <workItem from="1725929639490" duration="7258000" />
+      <workItem from="1726108133807" duration="635000" />
+      <workItem from="1726111553173" duration="110000" />
+      <workItem from="1726123361609" duration="12648000" />
+      <workItem from="1726191187493" duration="8805000" />
+      <workItem from="1726274868747" duration="25000" />
+      <workItem from="1726293390167" duration="795000" />
+      <workItem from="1726641924061" duration="1769000" />
+      <workItem from="1726709679507" duration="1317000" />
+      <workItem from="1726794013937" duration="950000" />
+      <workItem from="1726814832939" duration="2340000" />
+      <workItem from="1726885642501" duration="12900000" />
+      <workItem from="1726976309884" duration="4108000" />
+      <workItem from="1727013234742" duration="2693000" />
+      <workItem from="1727053186305" duration="29000" />
+      <workItem from="1727063411806" duration="8990000" />
+      <workItem from="1727103765240" duration="5850000" />
+      <workItem from="1727140476459" duration="11517000" />
+      <workItem from="1727225960565" duration="9773000" />
+      <workItem from="1727312209204" duration="598000" />
+      <workItem from="1727662793256" duration="3822000" />
+      <workItem from="1728554123878" duration="767000" />
+      <workItem from="1728720114011" duration="5693000" />
+      <workItem from="1728786988022" duration="6514000" />
+      <workItem from="1728868158101" duration="13015000" />
+      <workItem from="1728954217057" duration="3640000" />
+      <workItem from="1728999641916" duration="172000" />
+      <workItem from="1729158512814" duration="759000" />
+      <workItem from="1729164215315" duration="5013000" />
+      <workItem from="1729174151386" duration="15000" />
+      <workItem from="1729213877433" duration="1422000" />
+      <workItem from="1729666018751" duration="5437000" />
+      <workItem from="1729780987590" duration="3093000" />
+      <workItem from="1729846872818" duration="1000" />
+      <workItem from="1730019210935" duration="3964000" />
+      <workItem from="1730097187103" duration="1824000" />
+      <workItem from="1730129969393" duration="1001000" />
+      <workItem from="1730169516960" duration="13936000" />
+      <workItem from="1730272960750" duration="3566000" />
+      <workItem from="1730339671773" duration="28256000" />
+      <workItem from="1730569347958" duration="952000" />
+      <workItem from="1730682338886" duration="646000" />
+      <workItem from="1730687340865" duration="306000" />
+      <workItem from="1730714551738" duration="6395000" />
+      <workItem from="1730801188102" duration="2024000" />
+      <workItem from="1730972486458" duration="1519000" />
+      <workItem from="1731572573288" duration="2865000" />
+      <workItem from="1731632877764" duration="5846000" />
+      <workItem from="1731892536301" duration="4650000" />
+      <workItem from="1731997912137" duration="36000" />
+      <workItem from="1731998745389" duration="177000" />
+      <workItem from="1732446817906" duration="857000" />
+      <workItem from="1733900154402" duration="10850000" />
+      <workItem from="1733965693611" duration="6348000" />
+      <workItem from="1734339308278" duration="35062000" />
+      <workItem from="1734920210143" duration="1865000" />
+      <workItem from="1735010126334" duration="3549000" />
+      <workItem from="1735283524660" duration="1893000" />
+      <workItem from="1735629067950" duration="2239000" />
+      <workItem from="1736148537890" duration="17184000" />
     </task>
+    <task id="LOCAL-00001" summary="commit &quot;demo08&quot;">
+      <option name="closed" value="true" />
+      <created>1710555898141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710555898141</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit demo08">
+      <option name="closed" value="true" />
+      <created>1710555980260</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710555980260</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit demo05">
+      <option name="closed" value="true" />
+      <created>1710650538256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710650538256</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit demo10">
+      <option name="closed" value="true" />
+      <created>1710928779680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710928779680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit demo10">
+      <option name="closed" value="true" />
+      <created>1711032993286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711032993286</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit demo10">
+      <option name="closed" value="true" />
+      <created>1711078057940</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711078057940</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit demo11">
+      <option name="closed" value="true" />
+      <created>1711204033869</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711204033869</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit demo11">
+      <option name="closed" value="true" />
+      <created>1711293957226</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711293957226</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit demo11">
+      <option name="closed" value="true" />
+      <created>1711541514994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711541514994</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit demo02">
+      <option name="closed" value="true" />
+      <created>1711609755718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711609755718</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit demo11">
+      <option name="closed" value="true" />
+      <created>1711722907862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711722907862</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit pom">
+      <option name="closed" value="true" />
+      <created>1712393894376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712393894376</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit demo02">
+      <option name="closed" value="true" />
+      <created>1712676918730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1712676918730</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit demo05">
+      <option name="closed" value="true" />
+      <created>1712975575847</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712975575847</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit demo015">
+      <option name="closed" value="true" />
+      <created>1713971829628</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1713971829628</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit demo04">
+      <option name="closed" value="true" />
+      <created>1713972148692</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1713972148692</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit Test">
+      <option name="closed" value="true" />
+      <created>1721739968959</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721739968959</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commit mymaster">
+      <option name="closed" value="true" />
+      <created>1721740321982</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721740321982</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commit &quot;打印时间&quot;">
+      <option name="closed" value="true" />
+      <created>1721743402138</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743402138</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commit &quot;打印时间&quot;">
+      <option name="closed" value="true" />
+      <created>1721743723478</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721743723478</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commit &quot;czn&quot;">
+      <option name="closed" value="true" />
+      <created>1721744786362</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1721744786362</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commit &quot;czn&quot;">
+      <option name="closed" value="true" />
+      <created>1721745051390</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721745051390</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commit &quot;fzk&quot;">
+      <option name="closed" value="true" />
+      <created>1721745221666</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1721745221666</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit &quot;lzt&quot;">
+      <option name="closed" value="true" />
+      <created>1721751502573</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721751502573</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commit &quot;lzt&quot;">
+      <option name="closed" value="true" />
+      <created>1721751774472</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1721751774473</updated>
+    </task>
+    <task id="LOCAL-00026" summary="新增注释">
+      <option name="closed" value="true" />
+      <created>1734341540621</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734341540621</updated>
+    </task>
+    <task id="LOCAL-00027" summary="新增注释">
+      <option name="closed" value="true" />
+      <created>1734342245146</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734342245146</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="mymaster" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/mymaster" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="mymaster" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="MATCH_CASE" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit &quot;demo08&quot;" />
+    <MESSAGE value="commit demo08" />
+    <MESSAGE value="commit demo10" />
+    <MESSAGE value="commit demo11" />
+    <MESSAGE value="commit pom" />
+    <MESSAGE value="commit demo02" />
+    <MESSAGE value="commit demo05" />
+    <MESSAGE value="commit demo015" />
+    <MESSAGE value="commit demo04" />
+    <MESSAGE value="commit Test" />
+    <MESSAGE value="commit mymaster" />
+    <MESSAGE value="commit &quot;打印时间&quot;" />
+    <MESSAGE value="commit &quot;czn&quot;" />
+    <MESSAGE value="commit &quot;fzk&quot;" />
+    <MESSAGE value="commit &quot;lzt&quot;" />
+    <MESSAGE value="新增注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增注释" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo06/suanfa/treeDemo.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo01/javaString/Stringdemo4.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo15/MetadataTreeDemo.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo02/WordTemplateFiller.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo02/WordTemplateFiller.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageDpiChecker01.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/TestFastJson.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lineWell/demo07/TestFastJson.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[14]最长公共前缀.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[14]最长公共前缀.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.jdom2.Element" memberName="parent" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java$PDFScannerDetector03.ic" NAME="PDFScannerDetector03 Coverage Results" MODIFIED="1730353611970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>lineWell.demo04.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java$MysqlToEs.coverage" NAME="MysqlToEs Coverage Results" MODIFIED="1731998912947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/java/lineWell/demo06" />
   </component>
 </project>

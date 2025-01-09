@@ -1,0 +1,17 @@
+2024-12-16 20:25:32 [Thread-1] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:32 [Thread-1] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:32 [Thread-2] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16
+2024-12-16 20:25:32 [Thread-1] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-1: 2024-12-16
+2024-12-16 20:25:33 [Thread-2] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16
+2024-12-16 20:25:33 [Thread-2] INFO  demo01.DateDemo.UnsafeSimpleDateFormatDemo01 - Thread-2: 2024-12-16
+2024-12-17 09:54:34 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 09:54:35 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 09:55:25 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 09:55:26 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 09:55:27 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 10:03:15 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 10:03:16 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 10:03:46 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：true
+2024-12-17 10:04:04 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 10:04:05 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false
+2024-12-17 10:04:06 [Thread-1] INFO  demo02.kuangshen.threadStatus.interruptThreadDemo - 中断状态：false

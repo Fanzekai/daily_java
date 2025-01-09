@@ -35,7 +35,7 @@ public class RedisDistributedLockJedis02 {
         @Override
         public void run() {
             Jedis jedis = new Jedis("localhost", 6379);
-            RedisDistributedLockJedis01 lock = new RedisDistributedLockJedis01(jedis);
+            RedisDistributedLockJedisConfig lock = new RedisDistributedLockJedisConfig(jedis);
 
             if (lock.tryLock()) {
                 try {

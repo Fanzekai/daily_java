@@ -11,7 +11,7 @@ public class RedisDistributedLockJedis03 {
 
     public static void main(String[] args) {
         Jedis jedis = new Jedis("localhost", 6379);
-        RedisDistributedLockJedis01 lock = new RedisDistributedLockJedis01(jedis);
+        RedisDistributedLockJedisConfig lock = new RedisDistributedLockJedisConfig(jedis);
 
         // 尝试获取锁
         if (lock.tryLock()) {

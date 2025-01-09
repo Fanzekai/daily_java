@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<writ sect_code="全宗号" user_id="警号或者登录账户">
+    <element name="writOldId">原系统记录id</element>
+    <element name="writYwlb">专业类别</element>
+    <element name="writName">题名</element>
+    <element name="writYear">年度</element>
+    <element name="writDuty">归档部门</element>
+    <element name="writKeepTime">保管期限</element>
+    <element name="writPageNum">页数(默认值为 1)</element>
+    <element name="writCopyNum">份数(默认值为 1)</element>
+    <element name="writDoneDate">文件日期</element>
+    <element name="writLevel">密级</element>
+    <element name="writCode">文号</element>
+    <element name="writXm">姓名</element>
+    <element name="writSfzh">身份证号</element>
+    <element name="writBdxm">变动项目</element>
+    <element name="writBdyy">变动原因</element>
+    <element name="writZzd">暂住地</element>
+    <element name="writYjs">原籍派出所</element>
+    <element name="writHjd">户籍所在地</element>
+    <element name="writSpjg">审批机构</element>
+    <element name="writThry">同户人员</element>
+    <element name="writCmzh">船民证号</element>
+    <element name="writCzbh">船只编号</element>
+</writ>

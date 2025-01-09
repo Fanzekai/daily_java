@@ -1,8 +1,10 @@
 package demo02.kuangshen.threadStatus;
 
-import lombok.extern.slf4j.Slf4j;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 /**
  * @author fzk
  * @version 1.0
@@ -15,7 +17,8 @@ import org.slf4j.LoggerFactory;
 public class interruptThreadDemo {
 
     //日志
-    private static final Logger log = LoggerFactory.getLogger(interruptThreadDemo.class);
+    private static final Logger log = LogManager.getLogger(interruptThreadDemo.class);
+
 
     public static void main(String[] args) {
 

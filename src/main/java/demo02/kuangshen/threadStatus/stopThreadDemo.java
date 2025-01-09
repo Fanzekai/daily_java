@@ -30,7 +30,7 @@ public class stopThreadDemo implements Runnable {
             if (i == 900) {
                 //调用stop()切换标志位,让线程终止
                 stop.stop();
-                System.out.println("该线程停止了");
+                System.out.println("子线程停止了");
             }
         }
     }

@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³ä¶¦üÿÿÿÿ
+e
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(º™íàþÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÙØ¤Þýÿÿÿÿ
+@	java:S106#"+Replace this use of System.out by a logger.(ø‹õ·
+>	java:S108&")Either remove or fill this block of code.(ï­£Ä
+>	java:S108*")Either remove or fill this block of code.(ï­£Ä

@@ -18,7 +18,6 @@ public class StringBuilderdemo01 {
     public static void main(String[] args) {
 
 
-        Logger logger = LoggerFactory.getLogger(StringBuilderdemo01.class);
 
         StringBuilder sb1 = new StringBuilder();
         sb1.append(8).append("乘以").append(6.6).append('=').append(true);
@@ -61,7 +60,7 @@ public class StringBuilderdemo01 {
         System.out.println(str); // HelloWorldJava
 
 
-        logger.info("==========================");
+        log.info("==========================");
 
         //创建对象
         StringBuilder builder = new StringBuilder();

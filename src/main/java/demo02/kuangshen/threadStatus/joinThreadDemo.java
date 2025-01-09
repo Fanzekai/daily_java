@@ -13,7 +13,7 @@ public class joinThreadDemo implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < 500; i++) {
-            System.out.println("线程vip" + i);
+            System.out.println("子线程vip" + i);
         }
     }
 
@@ -26,7 +26,7 @@ public class joinThreadDemo implements Runnable {
         //主线程
         for (int i = 0; i < 500; i++) {
             if (i == 200) {
-                thread.join();//插队
+                thread.join();//插队，本来主子线程是交替执行，插队后joinThread需在子线程前面执行了
             }
             System.out.println("main" + i);
         }

@@ -15,7 +15,7 @@ public class IOClient {
     public static void main(String[] args) {
         new Thread(() -> {
             try {
-                Socket socket = new Socket("127.0.0.1", 8000);
+                Socket socket = new Socket("127.0.0.1", 8007);
                 while (true) {
                     try {
                         socket.getOutputStream().write((new Date() + ": hello world").getBytes());
@@ -30,7 +30,7 @@ public class IOClient {
 
         new Thread(() -> {
             try {
-                Socket socket = new Socket("127.0.0.1", 8000);
+                Socket socket = new Socket("127.0.0.1", 8007);
                 while (true) {
                     try {
                         socket.getOutputStream().write(("fzk" + ": 你好").getBytes());

@@ -15,13 +15,14 @@ public class threadExecutors {
 
         //Executors工具类,三大方法底层都调用得是ThreadPoolExecutor
         // ExecutorService threadPool = Executors.newSingleThreadExecutor();//单个线程
-         ExecutorService threadPool2 = Executors.newFixedThreadPool(5);//创建一个固定大小得线程池
-        ExecutorService threadPool3 = Executors.newCachedThreadPool();//可伸缩，线程数可变
+         ExecutorService threadPool = Executors.newFixedThreadPool(5);//创建一个固定大小得线程池
+       // ExecutorService threadPool = Executors.newCachedThreadPool();//可伸缩，线程数可变
 
 
 
-        ExecutorService threadPool = Executors.newSingleThreadExecutor();//单个线程
-        for (int i = 0; i < 10; i++) {
+        //ExecutorService threadPool = Executors.newSingleThreadExecutor();//单个线程
+
+        for (int i = 0; i < 100; i++) {
             //使用了线程池之后,使用线程池来创建线程
             threadPool.execute(()->{
                 System.out.println(Thread.currentThread().getName()+"ok");
@@ -49,7 +50,5 @@ public class threadExecutors {
  * **/
 
 
-//线程池里面用到了阻塞队列，简单来说就是线程池
-//里面的工作线程处于一直运行状态，它会从阻塞队列中去获取待执行的任务，一旦队列
-//空了，那这个工作线程就会被阻塞，直到下次有新的任务进来。
-//也就是说，工作线程是根据任务的情况实现阻塞和唤醒，从而达到线程复用的目的
+//线程池里面用到了阻塞队列，简单来说就是线程池里面的工作线程处于一直运行状态，它会从阻塞队列中去获取待执行的任务，一旦队列
+//空了，那这个工作线程就会被阻塞，直到下次有新的任务进来。也就是说，工作线程是根据任务的情况实现阻塞和唤醒，从而达到线程复用的目的

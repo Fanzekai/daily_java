@@ -1,4 +1,7 @@
 package demo01.DateDemo;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
@@ -9,6 +12,7 @@ import java.util.Date;
 
 
 public class UnsafeSimpleDateFormatDemo01 {
+    private static final Logger logger = LogManager.getLogger(UnsafeSimpleDateFormatDemo01.class);
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
     public static void main(String[] args) {
@@ -29,10 +33,16 @@ public class UnsafeSimpleDateFormatDemo01 {
                     Thread.sleep((long) (Math.random() * 1000));
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    logger.error("Thread interrupted: {}", e.getMessage());
                 }
+
                 // 使用SimpleDateFormat格式化当前日期，并打印输出
                 String formattedDate = sdf.format(new Date());
-                System.out.println(Thread.currentThread().getName() + ": " + formattedDate);
+                logger.trace(Thread.currentThread().getName() + ": " + formattedDate);
+                logger.debug(Thread.currentThread().getName() + ": " + formattedDate);
+                logger.info(Thread.currentThread().getName() + ": " + formattedDate);
+                logger.warn(Thread.currentThread().getName() + ": " + formattedDate);
+                logger.error(Thread.currentThread().getName() + ": " + formattedDate);
             }
         }
     }

@@ -14,7 +14,7 @@ public class IOServer {
 
     public static void main(String[] args) throws Exception {
 
-        ServerSocket serverSocket = new ServerSocket(8000);
+        ServerSocket serverSocket = new ServerSocket(8007);
 
         // (1) 接收新连接线程
         new Thread(() -> {

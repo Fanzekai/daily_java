@@ -1,0 +1,10 @@
+
+L
+java:S3740,"/Provide the parametrized type for this generic.(»ÌÖ”8ïğÑæ1
+Q
+java:S37400"/Provide the parametrized type for this generic.(¼…úùüÿÿÿÿ8ïğÑæ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šÇûüÿÿÿÿ8ğğÑæ1
+o	java:S116"SRename this field "UserName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È”¸„8ñğÑæ1
+t	java:S116"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬›™Âûÿÿÿÿ8ñğÑæ1
+t	java:S116"SRename this field "UserInfo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÖ£ùÿÿÿÿ8ñğÑæ1
+n	java:S116"RRename this field "Friends" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªüÃş8ñğÑæ1

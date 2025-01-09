@@ -1,0 +1,27 @@
+{
+  "projectInformationSheet1": {
+    "enterpriseQualification": {
+      "constructionQualifications": {
+        "designQualifications": "甲级资质证书",
+        "consultingQualifications": "咨询证书"
+      }
+    },
+    "projectCode": "项目编码"
+  },
+
+   "projectInformationSheet2": {
+     "employeeInformation": {
+       "projectDepartment": {
+         "role": "经理",
+         "name": "张三"
+       }
+     },
+     "projectName":"项目名称"
+   }
+
+
+}
+
+
+
+

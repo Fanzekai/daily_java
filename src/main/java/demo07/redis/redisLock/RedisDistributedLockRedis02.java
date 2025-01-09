@@ -13,7 +13,7 @@ public class RedisDistributedLockRedis02 {
 
 
     @Autowired
-    private RedisDistributedLockRedis01 distributedLock;
+    private RedisDistributedLockRedisConfig distributedLock;
 
     public static void main(String[] args) {
 

@@ -24,7 +24,7 @@ public class TCPClientDemo2 {
             //2.创建一个输出流
             outputStream = socket.getOutputStream();
             //3.文件流
-            fileInputStream  = new FileInputStream(new File("123.jpg"));
+            fileInputStream  = new FileInputStream(new File("D:\\workspace\\IDEA\\Git\\大杂烩\\java\\src\\main\\resources\\123.jpg"));
             //4.写出文件
             byte[] bytes = new byte[1024];
             int len;

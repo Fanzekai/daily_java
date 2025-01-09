@@ -5,13 +5,15 @@ package demo02.kuangshen.threadStatus;
  * @version 1.0
  * @date 2024/4/14  9:38
  */
+
 public class sleepThreadDemo1 implements Runnable {
 
-    //票数
-    private int ticketNums = 10;
+    // 票数
+    private  int ticketNums = 10;
 
     @Override
     public void run() {
+
         while (true) {
             if (ticketNums <= 0) {
                 break;

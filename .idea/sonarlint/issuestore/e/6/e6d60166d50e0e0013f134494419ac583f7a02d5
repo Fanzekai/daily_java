@@ -1,0 +1,10 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "123456" 3 times.(ÙÅ±Çşÿÿÿÿ8Áö¨ä1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·âá™8Âö¨ä1
+q
+java:S22594"OA "NullPointerException" could be thrown; "writeValueAsBytes" is nullable here.(Ê£Òüÿÿÿÿ8²¥Î¨ä1
+°
+java:S1130"Remove the declaration of thrown exception 'com.fasterxml.jackson.core.JsonProcessingException' which is a subclass of 'java.io.IOException'.(ùıûœÿÿÿÿÿ8üÑ’¨ä1
+L	java:S1064"+Replace this use of System.out by a logger.(Ê£Òüÿÿÿÿ8ÇÒÕ±ä1
+L	java:S1068"+Replace this use of System.out by a logger.(èÖå¥şÿÿÿÿ8ÈÒÕ±ä1

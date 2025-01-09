@@ -16,8 +16,6 @@ public class Stringdemo3 {
         test3();
 
     }
-
-
     public  static void test1() {
         String s1 = "   Hello,   World!   ";
         System.out.println("字符串的长度是：" + s1.length());   //输出 21
@@ -27,8 +25,6 @@ public class Stringdemo3 {
         System.out.println("将字符串中所有小写字母转换为大写为：" + s1.toUpperCase());
         System.out.println("返回删去字符串中前后空格后新的字符串：" + s1.trim());//中间空格不会消失
     }
-
-
     public static void test2() {
         String s2 = "helloWorld";
         String s3 = "HelloWorlD";
@@ -39,8 +35,6 @@ public class Stringdemo3 {
         String s5=s4.concat("def");    //字符串的拼接,
         System.out.println(s5);  //输出 abcdef
     }
-
-
     public static void test3() {
         String s1 = "helloWorld";
         System.out.println(s1.substring(5));   //输出 World 从第5个索引开始截取字符串，直到末尾

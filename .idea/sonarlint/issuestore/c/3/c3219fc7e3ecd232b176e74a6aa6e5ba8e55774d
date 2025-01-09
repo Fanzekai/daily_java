@@ -1,0 +1,8 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "123456" 3 times.(ÙÅ±Çþÿÿÿÿ8Ø£•¨ä1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å¹õÇ8Ù£•¨ä1
+d
+java:S2259/"BA "NullPointerException" could be thrown; "text" is nullable here.(š¹Õùýÿÿÿÿ8¨‡¼¡æ1
+L	java:S106/"+Replace this use of System.out by a logger.(š¹Õùýÿÿÿÿ8Ý£•¨ä1
+L	java:S1063"+Replace this use of System.out by a logger.(§Ö¯÷ûÿÿÿÿ8Ý£•¨ä1

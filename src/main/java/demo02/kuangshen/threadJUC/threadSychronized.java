@@ -19,7 +19,7 @@ public class threadSychronized {
 
 
     public static void main(String[] args) {
-        Data data = new Data();
+         Data data = new Data();
         new Thread(()->{
             for (int i = 0; i < 10; i++) {
                 try {
