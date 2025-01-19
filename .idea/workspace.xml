@@ -4,127 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c84a41e7-5efb-43c3-9911-546f0486c246" name="Changes" comment="新增注释">
-      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data02.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsondata2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/olddata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/Tcpdemo02/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/Tcpdemo02/TCPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo13/SignAPIInsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/Metadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/MetadataTreeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo15/TreeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo17/BasePack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo17/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONKeyCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/JSONValidators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/XMLGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/XmlTojson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo01/getKeyFromJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo02/WordTemplateFiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo02/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageDpiChecker01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageQualityChecker03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo03/ImageResolutionChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFImageDetector01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo04/PDFScannerDetector04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/ExifReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/FilePropertiesDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/PdfDetailsExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/PdfFileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/fileUrlChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo05/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/ArchiveFileChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/MysqlToEs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/ObjectInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/transformHuaweiObsPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/JsonToXmlConverter01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/JsonToXmlWithFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/TestFastJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/gethostName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/jvmTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/pathtest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/json/在线归档参数.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templateFile/归档登记表.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/归档登记表.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlData" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/在线归档元数据.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/在线归档参数.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/接收参数.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/行政审批元数据.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/61d8082579c28ef6fb7eb08236f5647d739960a6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/ba890c5515e9f71bb095f6f28276c64fa625b677" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_15_21_27_[Changes]1/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/datatest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+    <list default="true" id="c84a41e7-5efb-43c3-9911-546f0486c246" name="Changes" comment="测试提交20250119">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo07/getDuiSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lineWell/demo06/proxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/SimpleDateFormatDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/SimpleDateFormatDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/UnsafeSimpleDateFormatDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/DateDemo/UnsafeSimpleDateFormatDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/interfaces/MammalInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/interfaces/MammalInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/interfaces/interfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/interfaces/interfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBufferdemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBufferdemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBuilderdemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/StringBuilderdemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/javaString/Stringdemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/javaString/Stringdemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/lamdaDemo/lamdademo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/lamdaDemo/lamdademo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo01/streamDemo/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo01/streamDemo/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ScheduledTasks/TimerTaskDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ScheduledTasks/TimerTaskDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/SynchronousQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadSychronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadSychronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadJUC/threadVolatile2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadExecutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadExecutors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadPool/threadPoolDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/daemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/daemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/interruptThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/interruptThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/isAliveThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/isAliveThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/joinThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/joinThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/liveThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/liveThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/sleepThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/sleepThreadDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stateThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stateThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stopThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/stopThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/waitThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/waitThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/yieldThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/kuangshen/threadStatus/yieldThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/IOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/IOClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/IOServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/IOServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPClientDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPClientDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPSeverDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo04/kuangshen/Tcp/uploadFiledemo02/TCPSeverDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo06/suanfa/treeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo06/suanfa/treeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedis03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockJedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedis02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedis02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisDistributedLockRedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisincrDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo07/redis/redisLock/RedisincrDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo09/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo09/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/ReflectTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/ReflectTest02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/reflectDemo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo12/shuzimali.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo12/shuzimali.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo14/DesignPatterns/CreateDemo/BuilderPattern/Builder1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo14/DesignPatterns/CreateDemo/BuilderPattern/Builder1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/PointsDraw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo15/test01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/ThreeMethods/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/thread/CallableExample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/thread/CallableExample02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +82,31 @@
     &quot;assignee&quot;: &quot;Fanzekai&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="studymaster" />
+                    <option name="lastUsedInstant" value="1736391457" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="mymaster" />
+                    <option name="lastUsedInstant" value="1736391456" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -229,39 +140,40 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "SQL Inserts",
-    "database.data.extractors.current.id": "SQL Inserts",
-    "git-widget-placeholder": "mymaster",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/workspace/IDEA/Git/大杂烩/java/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36429432",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "two.files.diff.last.used.file": "D:/workspace/IDEA/Git/大杂烩/java/行政审批元数据.xml",
-    "two.files.diff.last.used.folder": "D:/workspace/IDEA/Git/大杂烩/java/src/main/resources/.idea",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;SQL Inserts&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mymaster&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/workspace/IDEA/Git/大杂烩/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41614908&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/workspace/IDEA/Git/大杂烩/java/行政审批元数据.xml&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/workspace/IDEA/Git/大杂烩/java/src/main/resources/.idea&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "0e44b1b7-9836-4dff-9709-3d6f372db670"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;0e44b1b7-9836-4dff-9709-3d6f372db670&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -282,13 +194,13 @@
       <recent name="demo07.redis.config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TCPClientDemo2">
-    <configuration name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo02.TCPClient" />
+  <component name="RunManager" selected="Application.TimerTaskDemo">
+    <configuration name="MyCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo02.ThreeMethods.MyCallable" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo02.*" />
+          <option name="PATTERN" value="demo02.ThreeMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClientDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo01.TCPClientDemo1" />
+    <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo02.ThreeMethods.MyRunnable" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo01.*" />
+          <option name="PATTERN" value="demo02.ThreeMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPClientDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.uploadFiledemo02.TCPClientDemo2" />
+    <configuration name="ThreadSleepExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo02.thread.ThreadSleepExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo04.kuangshen.Tcp.uploadFiledemo02.*" />
+          <option name="PATTERN" value="demo02.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.Tcpdemo02.TCPServer" />
+    <configuration name="TimerTaskDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo02.ScheduledTasks.TimerTaskDemo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo04.kuangshen.Tcp.Tcpdemo02.*" />
+          <option name="PATTERN" value="demo02.ScheduledTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,26 +247,116 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" />
+    <configuration name="WaitNotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo02.thread.WaitNotifyExample" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo04.kuangshen.Tcp.uploadFiledemo02.*" />
+          <option name="PATTERN" value="demo02.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TCPClientDemo2" />
-        <item itemvalue="Application.demo04.kuangshen.Tcp.uploadFiledemo02.TCPSeverDemo2" />
-        <item itemvalue="Application.TCPClient" />
-        <item itemvalue="Application.TCPServer" />
-        <item itemvalue="Application.TCPClientDemo1" />
+        <item itemvalue="Application.TimerTaskDemo" />
+        <item itemvalue="Application.MyCallable" />
+        <item itemvalue="Application.MyRunnable" />
+        <item itemvalue="Application.WaitNotifyExample" />
+        <item itemvalue="Application.ThreadSleepExample" />
       </list>
     </recent_temporary>
   </component>
@@ -522,6 +524,13 @@
       <workItem from="1735283524660" duration="1893000" />
       <workItem from="1735629067950" duration="2239000" />
       <workItem from="1736148537890" duration="17184000" />
+      <workItem from="1736390937117" duration="4952000" />
+      <workItem from="1736682756644" duration="287000" />
+      <workItem from="1736683336326" duration="594000" />
+      <workItem from="1736737936186" duration="7630000" />
+      <workItem from="1737010038472" duration="796000" />
+      <workItem from="1737010855589" duration="2380000" />
+      <workItem from="1737286605118" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="commit &quot;demo08&quot;">
       <option name="closed" value="true" />
@@ -739,7 +748,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734342245146</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="测试提交">
+      <option name="closed" value="true" />
+      <created>1736391547022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736391547022</updated>
+    </task>
+    <task id="LOCAL-00029" summary="测试提交">
+      <option name="closed" value="true" />
+      <created>1736402794955</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1736402794955</updated>
+    </task>
+    <task id="LOCAL-00030" summary="测试提交">
+      <option name="closed" value="true" />
+      <created>1737286649851</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1737286649851</updated>
+    </task>
+    <task id="LOCAL-00031" summary="测试提交20250119">
+      <option name="closed" value="true" />
+      <created>1737286878221</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737286878222</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -808,7 +849,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="mymaster" />
+                        <option value="studymaster" />
                       </list>
                     </value>
                   </entry>
@@ -842,7 +883,9 @@
     <MESSAGE value="commit &quot;fzk&quot;" />
     <MESSAGE value="commit &quot;lzt&quot;" />
     <MESSAGE value="新增注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增注释" />
+    <MESSAGE value="测试提交" />
+    <MESSAGE value="测试提交20250119" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试提交20250119" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -916,6 +959,16 @@
           <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[14]最长公共前缀.java</url>
           <line>52</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample03.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo02/thread/CountDownLatchExample03.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
