@@ -16,7 +16,7 @@ public class CountDownLatchExample03 {
         System.out.println("主线程开始执行");
 
 
-        CountDownLatch countDownLatch = new CountDownLatch(3);
+        CountDownLatch countDownLatch = new CountDownLatch(10);
 
 
         try {
@@ -28,9 +28,9 @@ public class CountDownLatchExample03 {
 
         ExecutorService executorService = Executors.newWorkStealingPool(5);
 
-        ArrayList<Future> list = new ArrayList<>();
+        ArrayList<Future<Integer>> list = new ArrayList<>();
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10; i++) {
 
             int finalI = i;
 
