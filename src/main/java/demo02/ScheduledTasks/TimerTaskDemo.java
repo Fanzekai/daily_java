@@ -20,9 +20,6 @@ public class TimerTaskDemo {
                         "线程名称: " + Thread.currentThread().getName());
             }
         };
-
-
-
         System.out.println("当前时间: " + new Date() + "n" +
                 "线程名称: " + Thread.currentThread().getName());
         Timer timer = new Timer("Timer");

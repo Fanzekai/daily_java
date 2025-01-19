@@ -32,8 +32,6 @@ public class MyRunnable implements Runnable{
         // 构造线程对象，才可以启动
         Thread thread1 = new Thread(runnable1);
         thread1.start();
-
-        MyRunnable runnable2 = new MyRunnable();
         //创建多线程 (如果传入的Runnable参数一样，可以共享资源)
         Thread thread2 = new Thread(runnable1);
         thread2.start();

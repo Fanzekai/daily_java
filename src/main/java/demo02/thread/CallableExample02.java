@@ -1,8 +1,10 @@
 package demo02.thread;
 
 
-import java.util.concurrent.*;
-
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 /**
  * @author fzk
  * @version 1.0
@@ -48,7 +50,6 @@ public class CallableExample02 implements Callable<Integer> {
             System.out.println("任务1的结果：" + result1);
             System.out.println("任务2的结果：" + result2);
             System.out.println("任务3的结果：" + result3);
-            System.out.println("所有任务完成");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
