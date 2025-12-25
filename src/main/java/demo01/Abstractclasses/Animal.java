@@ -3,7 +3,7 @@ package demo01.Abstractclasses;
 /**
  * @author fzk
  * @version 1.0
- * @date 2024/3/15  20:20
+ * @date 2025/12/25  20:20
  */
 
 public abstract class Animal {
